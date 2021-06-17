@@ -14,9 +14,11 @@ import java.util.ArrayList;
  */
 public class Objetos implements Serializable {
     ArrayList archivos;
+    ArrayList md5;
     
-    public Objetos(ArrayList archivos){
+    public Objetos(ArrayList archivos, ArrayList md5){
         this.archivos = archivos;
+        this.md5 = md5;
     }
     
     public ArrayList getLista(){
